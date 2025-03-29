@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dmitr\\source\\repos\\PW2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F10B615D-1186-4CF4-8648-C4889C39AEC9}|PW2\\PW2.csproj|c:\\users\\dmitr\\source\\repos\\pw2\\pw2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10B615D-1186-4CF4-8648-C4889C39AEC9}|PW2\\PW2.csproj|solutionrelative:pw2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F10B615D-1186-4CF4-8648-C4889C39AEC9}|PW2\\PW2.csproj|c:\\users\\dmitr\\source\\repos\\pw2\\pw2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F10B615D-1186-4CF4-8648-C4889C39AEC9}|PW2\\PW2.csproj|solutionrelative:pw2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\PW2\\PW2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PW2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\PW2\\PW2\\MainWindow.xaml",
+              "RelativeToolTip": "PW2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-29T11:54:33.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dmitr\\source\\repos\\PW2\\PW2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PW2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dmitr\\source\\repos\\PW2\\PW2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PW2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T11:54:30.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

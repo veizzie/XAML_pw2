@@ -1,0 +1,78 @@
+﻿<Window x:Class="PW2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PW2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid x:Name="MainContainer">
+        <!-- Трикутник -->
+        <Path x:Name="TrianglePath" Fill="Blue" Stroke="Black" StrokeThickness="1"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="0,0">
+                        <LineSegment Point="30,50"/>
+                        <LineSegment Point="-30,50"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+            <Path.RenderTransform>
+                <TranslateTransform x:Name="TriangleTransform"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <!-- Прямокутник -->
+        <Rectangle x:Name="RectangleShape" Width="50" Height="30" Fill="Red" Stroke="Black" StrokeThickness="1"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Rectangle.RenderTransform>
+                <TranslateTransform x:Name="RectangleTransform"/>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <!-- Коло -->
+        <Ellipse x:Name="CircleShape" Width="40" Height="40" Fill="Green" Stroke="Black" StrokeThickness="1"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Ellipse.RenderTransform>
+                <TranslateTransform x:Name="CircleTransform"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+
+        <!-- Піраміда -->
+        <Path x:Name="PyramidPath" Fill="Purple" Stroke="Black" StrokeThickness="1"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="0,0">
+                        <LineSegment Point="20,-30"/>
+                        <LineSegment Point="40,0"/>
+                        <LineSegment Point="20,15"/>
+                        <LineSegment Point="0,0"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+            <Path.RenderTransform>
+                <TranslateTransform x:Name="PyramidTransform"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <!-- Призма -->
+        <Path x:Name="PrismPath" Fill="Orange" Stroke="Black" StrokeThickness="1"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="0,0">
+                        <LineSegment Point="15,-20"/>
+                        <LineSegment Point="65,-20"/>
+                        <LineSegment Point="50,0"/>
+                        <LineSegment Point="0,0"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+            <Path.RenderTransform>
+                <TranslateTransform x:Name="PrismTransform"/>
+            </Path.RenderTransform>
+        </Path>
+    </Grid>
+</Window>
